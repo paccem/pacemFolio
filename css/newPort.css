@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh; */
+    background: black;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+.home{
+    
+    height: 100vh;
+}
+.nav_menu{
+    margin-left: 20px;
+    background-color: black;
+    margin: 0;
+    position: sticky;
+    opacity: 0.8;
+}
+ul {
+    list-style-type: none;
+}
+li{
+    display: inline-flex;
+    padding: 15px;
+    color:  rgb(7, 219, 226);
+    margin: 20px 30px;
+    
+}
+li:last-child{
+    float: right;
+}
+li a{
+    text-decoration: none;
+    font: 25px Helvetica;
+    text-transform: uppercase;
+    color: rgb(7, 219, 226);
+}
+li a:hover{
+    border-bottom: 2px solid rgb(7, 219, 226);
+    box-sizing: border-box;
+}
+.sometext{
+    /* text-align: center; */
+    padding: 50px;
+    color:rgb(7, 219, 226);
+    margin-top: 200px;
+    margin-left: 140px;
+}
+h3{
+    font: 35px bolder Georgia;
+    text-transform: uppercase;
+}
+h1{
+    font: 75px Impact, Charcoal, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color: honeydew;
+}
+.sometext p a{
+    text-decoration: none;
+    font: 22px tahoma;
+    color: honeydew;
+    text-transform: uppercase;
+    padding: 5px 7px;
+}
+#who{
+    font: 25px Verdana;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+.sometext>p{
+    margin-top: 20px;
+   padding-top: 35px; 
+   border: 5px solid gray;
+   padding: 10px;
+   border-radius: 10px;
+   width: 15%;
+   text-align: center;
+}
+.sometext>p:hover{
+    border: 5px solid rgb(7, 219, 226);
+}
+img{
+    height: 450px;
+    float: right;
+    margin-right: 190px;
+    margin-top: -350px;
+    border-radius: 30px;
+    opacity: 0.5;
+}
+.about{
+    background: rgb(246, 246, 243);
+    height: 80vh;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 25px;
+    
+    
+}
+h2{
+    text-align: center;
+    font: 28px Impact, Charcoal, sans-serif;
+    color: rgb(7, 219, 226);
+    padding-top: 70px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.container{
+    display: flex;
+    margin: 400px 100px;
+    justify-content: space-evenly;
+
+}
+.img{
+
+}
+.someNotes{
+    margin-top: -250px;
+    font: 30px Impact, Charcoal, sans-serif;
+    line-height: 40px;
+    text-align: left;
+}
+.Projects{
+    height: 200vh;
+    margin-top: 45px;
+}
+.Projects>h3{
+    font: 30px Verdana;
+    color: honeydew;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Projects>p{
+   font: 25px Verdana; 
+   color: honeydew;
+   margin-top: 15px;
+   text-align: center;
+   text-transform: capitalize;
+}
+.projectLink{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.projectLink div{
+    width: 23%;
+    height: 300px;
+    background-color: honeydew;
+    border-radius: 15px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 7px 10px rgb(7, 219, 226);
+}
+.projectLink div>p{
+    font: 22px Verdana;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 25px;
+}
+h5{
+    text-align: center;
+    margin-top: 40px;
+    font: 20px tahoma;
+}
+h5>a{
+    text-decoration: none;
+    color: rgb(7, 219, 226);
+    border: 2px solid gray;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(7, 219, 226);
+}
+h5>a:hover{ 
+    border: 2px solid  honeydew;
+    background-color: rgb(7, 219, 226);
+    color: honeydew;
+    box-shadow: none;
+}
+.contact_us{
+    background-color: lightsteelblue;
+    width: 98%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact_us div{
+    width: 40%;
+    height: 400px;
+    margin-top: 60px;
+}
+h6{
+    font: 30px bold Verdana;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.holder label{
+    font: 20px sans-serif;
+    text-transform: uppercase;
+}
+.holder progress{
+    width: 100%;
+    height: 25px;
+}
+.holder p{
+    font: 20px Helvetica;
+    padding: 20px;
+    text-align: center;
+    line-height: 45px;
+}
+.holder a{
+    text-decoration: none;
+    font: 20px Helvetica;
+    cursor: pointer;
+}
+#myEmail{
+    justify-content: center;
+}
+.msg{
+    display: inline;
+}
+.msg input{
+    margin: 15px auto;
+    width: 250px;
+    margin-right: 10%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#submit_btn{
+    padding: 5px 25px;
+    font: 18px bold;
+    color: honeydew;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.thanks{
+    font: 20px tahoma;
+    padding: 15px;
+    text-transform: capitalize;
+    text-align: left;
+    margin-top: 10px;
+}
+span{
+    text-align: center;
+    font: 20px tahoma;
+}
+@media only screen and (max-width:600px){
+    .home{
+        margin: 0px;
+        padding: 0px;
+        height: 60vh;
+    }
+    .nav_menu{
+        display: flex;
+        width: 100%;
+        margin: 25px 20%;
+        justify-content: space-between;
+    }
+    ul li{
+        display: inline-block;
+        padding: 5px;
+        margin: 2px 2px;
+        margin-right: 15px;
+        
+    }
+    li a{
+        font: 15px Helvetica;      
+    }
+    li a:hover{
+        border-bottom: 2px solid rgb(7, 219, 226);
+        border-top: 2px solid rgb(7, 219, 226);
+        box-sizing: border-box;
+    }
+    .sometext{
+        display: block;
+        padding: 30px;
+        margin-top: -5%;
+        margin-left: 8%;
+        width: 90%;
+        text-align: center;
+    }
+    h3{
+        margin-top: 100px;
+        font: 22px bolder Georgia;
+    }
+    h1{
+        font: 40px Impact, Charcoal, sans-serif;
+        text-transform: capitalize;
+        margin-bottom: 20px; 
+    }
+    #who{
+        font: 20px Verdana;
+        line-height: 20px;
+        /* margin-top: 50px; */
+    }
+    .sometext>p{
+        margin: 35px 20%; 
+        border: 5px solid gray;
+        border-radius: 10px;
+        width: 50%;
+        text-align: center;
+    }.sometext p a{
+        font: 18px tahoma;
+        padding: 5px 10px;
+    }
+    .sometext>p:hover{
+        border: 5px solid rgb(7, 219, 226);
+    }
+    .home>img{
+        display: none;
+    }
+    .about{
+        height: 80vh; 
+        width: 100%; 
+        margin: 10%;    
+    }
+    /*  */
+    h2{
+        font: 20px Impact, Charcoal, sans-serif;
+        padding-top: 50px;
+        letter-spacing: 2px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    
+    }
+    .img>img{
+        width: 150px;
+        height: 150px;
+        margin: -350px 25%;
+        margin-bottom: 50px;
+    }
+    .someNotes{
+        margin-top: -150px;
+        font: 18px Impact, Charcoal, sans-serif;
+        line-height: 20px;
+        text-align: center;
+    }
+    /*  */
+    .Projects{
+        height: 240vh;
+        width: 90%;
+        margin: 35px 15%;
+        text-align: center;
+        justify-content: center;
+    }
+    .Projects>h3{
+        font: 20px Verdana;
+    }
+    .Projects>p{
+       font: 15px Verdana; 
+       margin-top: 15px;
+    }
+    .projectLink div{
+        width: 80%;
+        height: 130px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+        box-shadow: 3px 6px rgb(7, 219, 226);
+    }
+    .projectLink div>p{
+        font: 15px Verdana;
+        padding: 10px;
+    }
+    h5{
+        margin-top: 20px;
+        font: 15px tahoma;
+    }
+    h5>a{
+        border: 2px solid gray;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgb(7, 219, 226);
+    }
+    /*  */
+    .contact_us{
+        width: 90%;
+        text-align: center;
+        height: 180vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 5px;
+        margin: 15%;
+    }
+    .contact_us div{
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
+    }
+    h6{
+        font: 25px bold Verdana;
+        padding-bottom: 15px;
+    }
+    .holder label{
+        font: 15px sans-serif;
+    }
+    .holder progress{
+        width: 90%;
+        height: 20px;
+        justify-self: center;
+    }
+    .holder p{
+        font: 18px Helvetica;
+        padding: 15px;
+        line-height: 35px;
+    }
+    .holder a{
+        font: 15px Helvetica;
+        cursor: pointer;
+    }
+    #myEmail{
+        justify-content: center;
+    }
+    .msg{
+        display: inline;
+    }
+    .msg input{
+        margin: 15px auto;
+        width: 200px;
+        height: 25px;
+        padding: 5px;
+    }
+    #submit_btn{
+        padding: 5px 25px;
+        font: 15px bold;
+        color: honeydew;
+        background-color: black;
+        border-radius: 10px;
+        
+    }
+    .thanks{
+        font: 20px tahoma;
+        padding: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
